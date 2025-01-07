@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sidebar Menu | Trading Site</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+</head>
+<body>
+  <!-- Sidebar: I have taken the help of codingnepal website for this sidebar...-->
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <a href="#" class="header-logo">
+        <img src="logo.jpg" alt="Site Logo">
+      </a>
+      <button class="toggler sidebar-toggler">
+        <span class="material-symbols-rounded">chevron_left</span>
+      </button>
+      <button class="toggler menu-toggler">
+        <span class="material-symbols-rounded">menu</span>
+      </button>
+    </header>
+
+    <nav class="sidebar-nav">
+      <ul class="nav-list primary-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-rounded">dashboard</span>
+            <span class="nav-label">Post a New Item</span>
+          </a>
+          <span class="nav-tooltip">Post a New Item</span>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-rounded">calendar_today</span>
+            <span class="nav-label">My Watchlist</span>
+          </a>
+          <span class="nav-tooltip">My Watchlist</span>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <span class="nav-icon material-symbols-rounded">notifications</span>
+            <span class="nav-label">Trade History</span>
+          </a>
+          <span class="nav-tooltip">Trade History</span>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div id="menu" class="menu">
+      <a href="#">Home</a>
+      <a href="#">Trade Items</a>
+      <a href="#">My Trades</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Item List Section -->
+    <section class="item-list">
+      <div class="item">
+        <img src="./placeholder.jpg" alt="Item">
+        <h3>Item Name</h3>
+        <p>Item description goes here.</p>
+        <button>Propose Trade</button>
+      </div>
+      <div class="item">
+        <img src="./placeholder.jpg" alt="Item">
+        <h3>Item Name</h3>
+        <p>Item description goes here.</p>
+        <button>Propose Trade</button>
+      </div>
+    </section>
+
+    <!-- Trade Proposal Form Section -->
+    <section class="trade-form">
+      <h3>Propose a Trade</h3>
+      <form>
+        <input type="text" placeholder="Item Offered" required>
+        <input type="text" placeholder="Item Desired" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit Proposal</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p style="display: flex; flex-direction: column;">Contact: <a href="mailto:contact@tradingsite.com">contact@tradingsite.com</a></p>
+    <div>
+        <p>Connect with us on Social Media:</p>
+        <div style="display: flex; gap: 15px; justify-content: center; margin-top: 10px;">
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram" style="color: white;">
+                <i class="fab fa-instagram" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook" style="color: white;">
+                <i class="fab fa-facebook-f" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" style="color: white;">
+                <i class="fab fa-linkedin-in" style="font-size: 1.5rem;"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" aria-label="YouTube" style="color: white;">
+                <i class="fab fa-youtube" style="font-size: 1.5rem;"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
+</body>
+</html>
